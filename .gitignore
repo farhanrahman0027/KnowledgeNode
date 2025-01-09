@@ -1,0 +1,56 @@
+# Dependency directories
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# Cache directories
+.cache/
+.vite/
+.vite-cache/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test coverage reports
+coverage/
+
+# Static files and assets
+*.lock
+
+# Tailwind CSS cache
+.tailwindcss/
+
+# Temp files
+tmp/
+temp/
+
+# Generated files by service workers or manifest
+manifest.json
+
+# Output from npm/yarn link or other linking
+npm-packages/
