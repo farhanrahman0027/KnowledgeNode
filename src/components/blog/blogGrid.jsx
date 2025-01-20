@@ -15,14 +15,14 @@ import {
   Icon22,
   Icon23,
 } from "../imagepath";
-import BlogHeader from "./header";
+import Header from '../header/index';
 
 const BlogGrid = () => {
   return (
     <>
       <div className="main-wrapper">
-        <BlogHeader activeMenu={"Grid"}/>
-        <div className="breadcrumb-bar">
+      <Header  />
+        <div className="breadcrumb-bar" style={{paddingTop:'130px'}}>
           <div className="container">
             <div className="row">
               <div className="col-md-12 col-12">

@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import Footer from "../footer";
 // import Header from "../header";
 import { Blog1, Blog2, Blog3, Blog5, Blog6, Blog7, Icon22, Icon23, User, User1, User3 } from "../imagepath";
-import BlogHeader from "./header";
+import Header from '../header/index';
 
 const BlogList = () => {
   return (
     <>
       <div className="main-wrapper">
-        <BlogHeader activeMenu={"List"}/>
-        <div className="breadcrumb-bar">
+      <Header  />
+        <div className="breadcrumb-bar" style={{paddingTop:'130px'}}>
           <div className="container">
             <div className="row">
               <div className="col-md-12 col-12">

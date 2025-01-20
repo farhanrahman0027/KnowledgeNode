@@ -8,7 +8,7 @@ export default function InstructorSocialProfiles() {
     <div className="main-wrapper">
       <InstructorHeader activeMenu={"SocialProfile"} />
       {/* Page Wrapper */}
-      <div className="page-content">
+      <div className="page-content" style={{paddingTop:'130px'}}>
         <div className="container">
           <div className="row">
             {/* Sidebar */}

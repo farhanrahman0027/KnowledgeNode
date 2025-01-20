@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Footer from '../footer';
 import { Blog1, Blog2, Blog3, BlogBanner, Icon22, Icon23, User } from '../imagepath';
-import BlogHeader from './header';
+import Header from '../header/index';
 
 const BlogDetails = () => {
 
@@ -10,8 +10,8 @@ const BlogDetails = () => {
   return (
     <>
         <div className='main-wrapper'>
-          <BlogHeader activeMenu={"Details"} />
-            <div className="breadcrumb-bar">
+          <Header  />
+            <div className="breadcrumb-bar" style={{paddingTop:'130px'}}>
               <div className="container">
                 <div className="row">
                   <div className="col-md-12 col-12">

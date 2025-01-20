@@ -22,7 +22,7 @@ export default function InstructorGrid() {
     <div className="main-wrapper">
       <InstructorHeader activeMenu={"Grid"} />
       {/* BreadCrumb */}
-      <div className="breadcrumb-bar">
+      <div className="breadcrumb-bar" style={{paddingTop:'130px'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-12">

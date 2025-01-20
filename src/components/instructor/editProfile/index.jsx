@@ -58,7 +58,7 @@ export default function InstructorEditProfile() {
   return (
     <div className="main-wrapper">
       <InstructorHeader />
-      <div className="page-content">
+      <div className="page-content" style={{paddingTop:'130px'}}>
         <div className="container">
           <div className="row">
             {/* Sidebar */}

@@ -220,7 +220,7 @@ export const Dashboard = () => {
   return (
     <div className="main-wrapper">
       <InstructorHeader activeMenu={"Dashboard"} />
-      <div className="page-content instructor-page-content">
+      <div className="page-content instructor-page-content" style={{paddingTop:'130px'}}>
         <div className="container">
           <div className="row">
             {/* Sidebar */}

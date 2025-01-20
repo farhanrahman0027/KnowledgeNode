@@ -15,13 +15,10 @@ const Header = () => {
   // Mobile Menu toggle
   const [mobileSubMenu, setMobileSubMenu] = useState(false);
   const [mobileSubMenu2, setMobileSubMenu2] = useState(false);
-  const [mobileSubMenu22, setMobileSubMenu22] = useState(false);
   const [mobileSubMenu3, setMobileSubMenu3] = useState(false);
-  const [mobileSubMenu32, setMobileSubMenu32] = useState(false);
   const [mobileSubMenu4, setMobileSubMenu4] = useState(false);
   const [mobileSubMenu42, setMobileSubMenu42] = useState(false);
   const [mobileSubMenu43, setMobileSubMenu43] = useState(false);
-  const [mobileSubMenu5, setMobileSubMenu5] = useState(false);
 
   const openMobileMenu = () => {
     document.body?.classList?.add("menu-opened");
@@ -30,26 +27,17 @@ const Header = () => {
     document.body?.classList?.remove("menu-opened");
   };
 
-  const openMobileSubMenu = (e) => {
-    e.preventDefault();
-    setMobileSubMenu(!mobileSubMenu);
-  };
+
   const openMobileSubMenu2 = (e) => {
     e.preventDefault();
     setMobileSubMenu2(!mobileSubMenu2);
   };
-  const openMobileSubMenu22 = (e) => {
-    e.preventDefault();
-    setMobileSubMenu22(!mobileSubMenu22);
-  };
+
   const openMobileSubMenu3 = (e) => {
     e.preventDefault();
     setMobileSubMenu3(!mobileSubMenu3);
   };
-  const openMobileSubMenu32 = (e) => {
-    e.preventDefault();
-    setMobileSubMenu32(!mobileSubMenu32);
-  };
+
   const openMobileSubMenu4 = (e) => {
     e.preventDefault();
     setMobileSubMenu4(!mobileSubMenu4);
@@ -62,10 +50,7 @@ const Header = () => {
     e.preventDefault();
     setMobileSubMenu43(!mobileSubMenu43);
   };
-  const openMobileSubMenu5 = (e) => {
-    e.preventDefault();
-    setMobileSubMenu5(!mobileSubMenu5);
-  };
+
 
   const changeHeaderBackground = () => {
     if (window.scrollY >= 90) {
@@ -114,32 +99,14 @@ const Header = () => {
                 </Link>
               </div>
               <ul className="main-nav">
-                <li className="has-submenu active">
+                <li className="active">
                   <Link
                     className={mobileSubMenu ? "submenu" : ""}
                     to="/"
-                    onClick={openMobileSubMenu}
+                  
                   >
-                    Home <i className="fas fa-chevron-down" />
+                    Home
                   </Link>
-                  <ul
-                    className={
-                      mobileSubMenu ? "submenu submenuShow" : "submenu"
-                    }
-                  >
-                    <li className="active">
-                      <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                      <Link to="/home2">Home Two</Link>
-                    </li>
-                    <li>
-                      <Link to="/home3">Home Three</Link>
-                    </li>
-                    <li>
-                      <Link to="/home4">Home Four</Link>
-                    </li>
-                  </ul>
                 </li>
                 <li className="has-submenu">
                   <Link to="/" onClick={openMobileSubMenu2}>
@@ -154,25 +121,7 @@ const Header = () => {
                       <Link to="/instructor-dashboard">Dashboard</Link>
                     </li>
                     <li className="has-submenu">
-                      <Link to="/instructor-list">
-                        Instructor
-                        <i
-                          className="fas fa-chevron-right listMob"
-                          onClick={openMobileSubMenu22}
-                        ></i>
-                      </Link>
-                      <ul
-                        className={
-                          mobileSubMenu22 ? "submenu submenuShow" : "submenu"
-                        }
-                      >
-                        <li>
-                          <Link to="/instructor-list">List</Link>
-                        </li>
-                        <li>
-                          <Link to="/instructor-grid">Grid</Link>
-                        </li>
-                      </ul>
+                      <Link to="/instructor-list">Instructor</Link>
                     </li>
                     <li>
                       <Link to="/instructor-course">My Course</Link>
@@ -237,25 +186,7 @@ const Header = () => {
                     }
                   >
                     <li className="has-submenu ">
-                      <Link to="/students-list">
-                        Student
-                        <i
-                          className="fas fa-chevron-right listMob"
-                          onClick={openMobileSubMenu32}
-                        ></i>
-                      </Link>
-                      <ul
-                        className={
-                          mobileSubMenu32 ? "submenu submenuShow" : "submenu"
-                        }
-                      >
-                        <li>
-                          <Link to="/students-list">List</Link>
-                        </li>
-                        <li>
-                          <Link to="/students-grid">Grid</Link>
-                        </li>
-                      </ul>
+                      <Link to="/students-list">Student</Link>
                     </li>
                     <li>
                       <Link to="/setting-edit-profile">Student Profile</Link>
@@ -402,30 +333,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="has-submenu">
-                  <Link to="/blog-list" onClick={openMobileSubMenu5}>
-                    Blog <i className="fas fa-chevron-down" />
-                  </Link>
-                  <ul
-                    className={
-                      mobileSubMenu5 ? "submenu submenuShow" : "submenu"
-                    }
-                  >
-                    <li>
-                      <Link to="/blog-list">Blog List</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog-grid">Blog Grid</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog-masonry">Blog Masonry</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog-modern">Blog Modern</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog-details">Blog Details</Link>
-                    </li>
-                  </ul>
+                  <Link to="/blog-list">Blog</Link>
                 </li>
                 <li className="login-link">
                   <Link to="/login">Login / Signup</Link>

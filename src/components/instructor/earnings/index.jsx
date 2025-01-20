@@ -131,7 +131,7 @@ export default function InstructorEarnings() {
   return (
     <div className="main-wrapper">
       <InstructorHeader activeMenu={"Earnings"} />
-      <div className="page-content">
+      <div className="page-content" style={{paddingTop:'130px'}}>
         <div className="container">
           <div className="row">
             {/* Sidebar */}

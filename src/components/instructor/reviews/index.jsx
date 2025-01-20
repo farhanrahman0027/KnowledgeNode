@@ -81,7 +81,7 @@ export default function InstructorReviews() {
     <div className="main-wrapper">
       <InstructorHeader activeMenu={"Reviews"} />
       {/* Page Wrapper */}
-      <div className="page-content">
+      <div className="page-content" style={{paddingTop:'130px'}}>
         <div className="container">
           <div className="row">
             {/* Sidebar */}

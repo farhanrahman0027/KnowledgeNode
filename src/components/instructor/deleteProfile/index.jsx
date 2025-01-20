@@ -9,7 +9,7 @@ export default function InstructorDeleteProfile() {
     <div className="main-wrapper">
       <InstructorHeader />
       {/* Dashboard Student */}
-      <div className="page-content">
+      <div className="page-content" style={{paddingTop:'130px'}}>
         <div className="container">
           <div className="row">
             {/* Sidebar */}

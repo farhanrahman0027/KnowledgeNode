@@ -17,7 +17,7 @@ export default function DepositInstructor() {
       <InstructorHeader />
       <div
         className="page-banner instructor-bg-blk"
-        style={{ backgroundImage: "url(" + InstructorBgBanner + ")" }}
+        style={{ backgroundImage: "url(" + InstructorBgBanner + ")",paddingTop:'130px' }}
       >
         <div className="container">
           <div className="row align-items-center student-group">

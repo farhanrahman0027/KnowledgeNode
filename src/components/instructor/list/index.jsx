@@ -21,7 +21,7 @@ export const InstructorList = () => {
     <div className="main-wrapper">
       <InstructorHeader activeMenu={"List"} />
       {/* BreadcrumItem */}
-      <div className="breadcrumb-bar">
+      <div className="breadcrumb-bar" style={{paddingTop:'130px'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-12">
