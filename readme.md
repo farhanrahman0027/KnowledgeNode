@@ -1,4 +1,3 @@
-```markdown
 # KnowledgeNode
 
 KnowledgeNode is an advanced e-learning platform designed to revolutionize online education by providing users with an intuitive, engaging, and efficient way to access knowledge. Built with modern technologies like React.js, Node.js, Express.js, and MongoDB, this project offers a seamless learning experience for students and educators alike.
@@ -103,10 +102,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ## Contact
 
 For any inquiries, suggestions, or feedback, feel free to reach out:
-- **Email:** yourname@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
+- **Email:** farhanrahman0027@gmail.com
+- **GitHub:** [farhanrahman0027](https://github.com/farhanrahman0027)
 
 ---
 Thank you for exploring KnowledgeNode! We hope it makes your learning journey enriching and enjoyable.
-```
 
